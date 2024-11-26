@@ -41,9 +41,8 @@
 
 ### 📌 **백엔드 (Backend) 환경 설정**  
 - **Spring Boot** 사용  
-- `build.gradle`에 의존성 정의  
 - 아래의 **`application.properties`** 파일 설정 필요  
-  **위치:** `BE > src > main > resources > application.properties`  
+  **위치:** `backend > src > main > resources > application.properties`  
 
 #### 🔑 **application.properties**  
 ```application.properties
@@ -102,6 +101,10 @@ spring.servlet.multipart.enabled=true
 - **AWS 권한 설정**
   1. IAM User 생성하여 aws.access.key, aws.secret.key 저장하기 (secret key의 경우 페이지 벗어나면 다시 확인 불가능하므로 꼭 저장해두기!)
   2. S3에 대한 권한 부여 필요 (본인의 보안 유지 필요성에 따라 다르게 설정 -> 로컬에서 테스트 용이라면 full access 및 외부 접근 허용 설정 해두기)
+ 
+- **OAuth를 위한 Naver, Kakao 인증 설정**
+  1. https://developers.kakao.com/ 에서 Kakao 설정 가능
+  2. https://developers.naver.com/main/ 에서 Naver 설정 가능 
 
 ---
 
@@ -138,15 +141,14 @@ npm run start
 
 ---
 
-### 📁 **추가적인 라이브러리**
+### 📁 **추가적인 주요 라이브러리**
 - **Retrofit**: HTTP 통신을 간편하게 처리할 수 있는 라이브러리  
 - **Gson**: JSON 데이터 직렬화/역직렬화를 지원하는 라이브러리  
 - **OkHttp**: HTTP 요청 및 응답을 처리하기 위한 라이브러리  
 - **Iamport Rest Client**: 결제 처리를 위한 라이브러리  
 - **JSZip**: ZIP 파일 생성 및 압축 해제 기능 제공  
 - **FileSaver.js**: 파일 다운로드를 지원하는 브라우저 라이브러리  
-
-
+  
 ---
 
 ## 🔄 **환경 설정의 복잡함으로 인해 평가가 어렵다면!!**   
