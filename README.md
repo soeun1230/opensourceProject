@@ -23,6 +23,8 @@ application.properties 생성 필요
 2. AWS S3와 연결 필요 - IAM User accessKey, secrestKey
 3. Oauth2 인증을 위한 naver, kakao 설정 필요
 
+아래 이미지의 노란 박스를 본인 환경에 맞게 수정
+![build설정](https://github.com/user-attachments/assets/896c0274-3102-4414-8e29-50f5e24ccaea)
 
 ### 기타 환경 설정 
 AWS 계정 생성 후 S3 bucket 생성(imgcloud-iise 다른 이름으로 생성할 시 코드 수정 필요) > person, thing 이라는 두 가지 하위 폴더 생성 필요 
