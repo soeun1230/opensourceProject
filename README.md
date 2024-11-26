@@ -29,6 +29,11 @@ application.properties 생성 필요
 ### 기타 환경 설정 
 AWS 계정 생성 후 S3 bucket 생성(imgcloud-iise 다른 이름으로 생성할 시 코드 수정 필요) > person, thing 이라는 두 가지 하위 폴더 생성 필요 
 
+## 실행 
+### FE : npm run start 
+### BE : ImgcloudApplication.java 실행 
 
 ## 활용한 오픈 소스 
 ### 대표적 오픈 소스 : openCV, Spring boot, React (이외에 사용한 모든 소스는 build.gradle, package.json에 기술되어 있음)  
+#### openCV > BRISQUE : 
+#### opneCV > 
