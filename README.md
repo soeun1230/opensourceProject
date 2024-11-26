@@ -229,7 +229,7 @@ npm run start
 
 | 라이브러리 및 프레임워크             | 설명                                                                                       |
 |-------------------------------|--------------------------------------------------------------------------------------------|
-| **React.js**                  | UI 컴포넌트를 효율적으로 구성하기 위한 라이브러리                                            |
+| **React.js**                  | UI 컴포넌트를 효율적으로 구성하기 위한 프레임워크(https://github.com/reactjs)                                       |
 | **browser-image-compression** | 브라우저 환경에서 이미지 압축을 수행하기 위한 라이브러리                                     |
 | **react-image-crop** & **react-cropper** | React에서 이미지 크롭 및 편집을 지원하는 라이브러리                                       |
 
@@ -238,8 +238,8 @@ npm run start
 
 | 라이브러리 및 프레임워크                   | 설명                                                                                       |
 |--------------------------------------|--------------------------------------------------------------------------------------------|
-| **Spring Boot**             | RESTful API와 서버 관리에 사용되는 Java 기반 프레임워크                                       |
-| **MySQL**                   | 데이터베이스 관리 및 저장소                                                                 |
+| **Spring Boot**             | RESTful API와 서버 관리에 사용되는 Java 기반 프레임워크(https://github.com/spring-projects/spring-boot)                  |
+| **MySQL**                   | 데이터베이스 관리 및 저장소(https://github.com/mysql)                                                                 |
 | **Apache Commons Math**     | 수학 계산 및 통계 라이브러리                                                               |
 | **Lombok**                  | 코드를 간결하게 작성하기 위한 Java 라이브러리                                               |
 | **Javacv-Platform**         | OpenCV와 연동되는 Java 래퍼 라이브러리                                                     |
@@ -252,7 +252,7 @@ npm run start
 | **Gson**                | JSON 데이터 직렬화/역직렬화를 지원하는 라이브러리                                           |
 | **OkHttp**              | HTTP 요청 및 응답을 처리하기 위한 라이브러리                                                |
 | **Iamport Rest Client** | 결제 처리를 위한 라이브러리                                                                 |
-| **JSZip**               | ZIP 파일 생성 및 압축 해제 기능 제공                                                        |
+| **JSZip**               | ZIP 파일 생성 및 압축 해제 기능 제공(https://github.com/Stuk/jszip)                           |
 | **FileSaver.js**        | 파일 다운로드를 지원하는 브라우저 라이브러리                                                |
 
 
@@ -287,6 +287,11 @@ npm run start
 - Flaticon은 수천 개의 고품질 아이콘 리소스를 제공하는 플랫폼입니다.  
 - 웹 또는 모바일 애플리케이션의 디자인에 필요한 다양한 아이콘을 다운로드하여 사용할 수 있습니다.  
 - React와 통합하여 커스터마이징 가능한 SVG 및 PNG 포맷 아이콘을 제공합니다.
+
+---
+
+## 📜 License
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
