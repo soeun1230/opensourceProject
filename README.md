@@ -117,10 +117,35 @@ npm run start
 ---
 
 ## 📂 **활용한 오픈 소스 및 기술 스택**  
-- **Frontend**: React.js (+JS 제공 라이브러리 활용), Bootstrap, Flaticon  
-- **Backend**: Spring Boot (+Java 제공 라이브러리 활용) 
-- **이미지 분석**: OpenCV (BRISQUE 알고리즘 사용)  
-- 기타 사용된 패키지는 `build.gradle` 및 `package.json`에 명시되어 있습니다.  
+
+### 🖥️ **Frontend**  
+- **React.js**: UI 컴포넌트를 효율적으로 구성하기 위한 라이브러리  
+- **Bootstrap**: 반응형 디자인을 지원하는 CSS 프레임워크  
+- **Flaticon**: 다양한 아이콘 리소스를 제공하는 플랫폼  
+- **browser-image-compression**: 브라우저 환경에서 이미지 압축을 수행하기 위한 라이브러리  
+- **react-image-crop** & **react-cropper**: React에서 이미지 크롭 및 편집을 지원하는 라이브러리  
+
+---
+
+### 🛠️ **Backend**  
+- **Spring Boot**: RESTful API와 서버 관리에 사용되는 Java 기반 프레임워크  
+- **MySQL**: 데이터베이스 관리 및 저장소  
+- **AWS SDK**: S3를 활용한 파일 업로드 및 저장 관리  
+- **OpenCV**: 이미지 품질 분석 및 프로세싱 기능  
+- **Apache Commons Math**: 수학 계산 및 통계 라이브러리  
+- **Lombok**: 코드를 간결하게 작성하기 위한 Java 라이브러리  
+- **Javacv-Platform**: OpenCV와 연동되는 Java 래퍼 라이브러리  
+
+---
+
+### 📁 **추가적인 라이브러리**
+- **Retrofit**: HTTP 통신을 간편하게 처리할 수 있는 라이브러리  
+- **Gson**: JSON 데이터 직렬화/역직렬화를 지원하는 라이브러리  
+- **OkHttp**: HTTP 요청 및 응답을 처리하기 위한 라이브러리  
+- **Iamport Rest Client**: 결제 처리를 위한 라이브러리  
+- **JSZip**: ZIP 파일 생성 및 압축 해제 기능 제공  
+- **FileSaver.js**: 파일 다운로드를 지원하는 브라우저 라이브러리  
+
 
 ---
 
