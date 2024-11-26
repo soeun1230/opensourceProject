@@ -5,7 +5,58 @@
 
 ## 🌟 **웹사이트 소개**  
 이 웹사이트는 **BRISQUE 알고리즘**을 활용하여 이미지 품질을 분석하고, 다양한 이미지 편집 및 정보 제공 기능을 지원합니다.
-### 📄 **페이지 설명**  
+### 📄 **페이지 설명**
+
+---
+
+#### 🌟 **메인 페이지와 이미지 업로드 페이지**
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="image/mainPage.png" alt="main page" width="400"/>
+      <br/><b>메인 페이지</b>
+    </td>
+    <td align="center">
+      <img src="image/ImageUploadPage.png" alt="image upload page" width="400"/>
+      <br/><b>이미지 업로드 페이지</b>
+    </td>
+  </tr>
+</table>
+
+---
+
+#### ✂️ **이미지 크롭 페이지와 스토리지 페이지**
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="image/cropPage.png" alt="crop page" width="400"/>
+      <br/><b>이미지 크롭 페이지</b>
+    </td>
+    <td align="center">
+      <img src="image/StoragePage.png" alt="storage page" width="400"/>
+      <br/><b>스토리지 페이지</b>
+    </td>
+  </tr>
+</table>
+
+---
+
+#### 🔍 **상세 페이지와 기능 설명 페이지**
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="image/detailPage.png" alt="detail page" width="400"/>
+      <br/><b>상세 페이지</b>
+    </td>
+    <td align="center">
+      <img src="image/functionExplain.png" alt="function explain page" width="400"/>
+      <br/><b>기능 사용법 설명 페이지</b>
+    </td>
+  </tr>
+</table>
 
 
 ---
@@ -21,11 +72,24 @@
    - 해상도 측정 및 노이즈 제거  
 4. **로컬로 이미지 다운로드**
    - 다운로드 시 압축하여 다운 가능
-   - 
+   
 ---
 
-## 🚀 **주요 기능 사용 방법**  
+## ✨ **점수 측정 예시**
 
+<table align="center" style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <td style="text-align: center; width: 40%;">
+      <img src="image/scores.jpg" alt="점수 측정 예시" width="300" style="border-radius: 10px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);"/>
+    </td>
+    <td style="vertical-align: middle; padding-left: 20px; text-align: left; font-size: 16px; line-height: 1.6;">
+      <p>
+        위 이미지는 <b>imgCloud</b>를 이용하여 측정한 품질 점수를 보여주고 있습니다.  
+        <b>BRISQUE 알고리즘</b>을 사용하여 인간의 눈으로 보기에 가장 잘 나왔다고 판단되는 사진에 높은 점수를 부여합니다.
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -119,7 +183,7 @@ npm run start
 
 ---
 
-## 📂 **활용한 오픈 소스 및 기술 스택**  
+## 📂 **활용한 오픈 소스, 라이브러리 및 기술 스택**  
 
 ### 🖥️ **Frontend**  
 - **React.js**: UI 컴포넌트를 효율적으로 구성하기 위한 라이브러리  
@@ -138,6 +202,16 @@ npm run start
 - **Apache Commons Math**: 수학 계산 및 통계 라이브러리  
 - **Lombok**: 코드를 간결하게 작성하기 위한 Java 라이브러리  
 - **Javacv-Platform**: OpenCV와 연동되는 Java 래퍼 라이브러리  
+
+#### 🔍 OpenCV (Open Source Computer Vision Library)</span>
+
+OpenCV는 컴퓨터 비전과 이미지 처리 기능을 제공하는 오픈 소스 라이브러리입니다.  
+이미지 품질 분석, 얼굴 인식, 객체 추적 등 다양한 기능을 지원하며, **BRISQUE 알고리즘**을 통해 이미지 품질 평가를 수행합니다.  
+Spring Boot와 OpenCV를 연동하여 강력한 이미지 프로세싱 기능을 구현합니다.
+
+#### 📊 **Apache Commons Math**  
+Apache Commons Math는 Java 애플리케이션에서 수학적 계산과 통계 처리를 지원하는 강력한 라이브러리입니다.  
+특히, 이미지 품질 분석의 통계적 처리와 모델링에 필요한 수학적 연산을 간단하게 수행할 수 있습니다.
 
 ---
 
