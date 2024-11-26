@@ -1,0 +1,39 @@
+.ReactCrop__crop-selection {
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.8), 0 4px 8px rgba(0, 0, 0, 0.25);
+  outline: 1px solid transparent;
+}
+
+.ReactCrop__drag-bar {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.ReactCrop__image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.Modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 8px;
+  max-width: 600px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.upload-button {
+  background-color: rgb(99, 198, 255);
+  color: white;
+  font-weight: 700;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 20px;
+  bottom: 20px;
+  position: absolute;
+  right: 20px;
+  width: 100px;
+}

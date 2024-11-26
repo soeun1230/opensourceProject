@@ -1,0 +1,58 @@
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.sort {
+  display: flex;
+  align-items: center;
+}
+
+.filename {
+  width: 200px;
+  text-align: left;
+  word-wrap: break-word;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.filename2 {
+  width: 200px;
+  text-align: left;
+  word-wrap: break-word;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 30px;
+}
+
+.score {
+  width: 106px;
+  text-align: center;
+}
+
+.score2 {
+  width: 50px;
+  text-align: center;
+  margin-right: 140px;
+}
+
+.list .blank {
+  display: flex;
+  object-fit: cover;
+  padding: 0; /* padding 제거 */
+  margin: 0; /* 빈칸 없애기 위해 margin 제거 */
+}
+
+.checkBox {
+  display: flex;
+  align-items: center;
+  padding-right: 15px;
+}
+
+.sort2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 15px;
+}

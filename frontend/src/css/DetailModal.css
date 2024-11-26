@@ -1,0 +1,118 @@
+/* D:\iise_capston\imgcloud2\frontend\src\css\DetailModal.css */
+
+.Modal {
+  width: 80%;
+}
+
+h2 {
+  color: white;
+  flex-grow: 1;
+  text-align: center;
+  margin: 0;
+}
+.closeButton {
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  background-color: #72b3ff;
+  font-weight: 900;
+}
+.total {
+  display: flex;
+}
+.modalHeader {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.original {
+  width: 48%;
+  margin-right: 2%;
+  border-right: 1.2px solid #d9d9d9;
+}
+
+.originalImg {
+  display: flex;
+  width: 100%;
+  height: 42rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.detailImg {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto; /* Adjusts height proportionally */
+  width: auto; /* Adjusts width proportionally */
+  object-fit: contain; /* Ensures image does not get cropped or distorted */
+
+  margin-right: 20px;
+}
+
+.originalMetadata {
+  display: flex;
+}
+.transformed {
+  width: 50%;
+}
+.transformedImg {
+  display: flex;
+}
+.transformedMetadata {
+  display: flex;
+}
+
+.metadataLeft {
+  margin-right: 20px;
+  margin-top: 20px;
+  width: 50%;
+}
+.metadataRight {
+  margin-top: 20px;
+  width: 50%;
+}
+
+.original .buttonList {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.transformed .buttonList2 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.imgTitle {
+  padding-top: 2%;
+}
+
+.buttonList button {
+  border: none;
+  padding: 9px 21px;
+  background: white;
+  font-weight: 700;
+  border: 1.5px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.buttonList2 button {
+  border: none;
+  background: white;
+  font-weight: 700;
+  padding: 9px 21px;
+  border: 1.5px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 110px;
+}
+
+.metadataItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding-right: 25px;
+}
