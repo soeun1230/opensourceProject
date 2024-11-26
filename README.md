@@ -259,7 +259,7 @@ npm run start
 ---
 
 ### 🔍 **OpenCV (Open Source Computer Vision Library)**  
-
+- https://github.com/opencv/opencv
 - OpenCV는 컴퓨터 비전과 이미지 처리 기능을 제공하는 오픈 소스 라이브러리입니다.
 - 이미지 품질 분석, 얼굴 인식, 객체 추적 등 다양한 기능을 지원하며, **BRISQUE 알고리즘**을 통해 이미지 품질 평가를 수행합니다.
 - Spring Boot와 OpenCV를 연동하여 강력한 이미지 프로세싱 기능을 구현합니다.
@@ -267,7 +267,7 @@ npm run start
 ---
 
 ### ☁️ **AWS SDK**
-
+- https://github.com/aws/aws-sdk-java
 - AWS SDK는 S3와 같은 AWS 서비스와 애플리케이션을 손쉽게 통합할 수 있는 라이브러리입니다.  
 - S3 버킷을 활용해 파일 업로드 및 다운로드 기능을 구현하며, 대규모 데이터 처리에 적합합니다.  
 - Spring Boot와 함께 사용하여 간편한 클라우드 파일 스토리지 기능을 제공합니다.
@@ -275,7 +275,7 @@ npm run start
 ---
 
 ### 🎨 **Bootstrap**
-
+- https://github.com/twbs/bootstrap
 - Bootstrap은 반응형 웹 디자인과 CSS 스타일링을 지원하는 인기 있는 프론트엔드 프레임워크입니다.  
 - 다양한 컴포넌트(버튼, 폼, 카드 등)와 그리드 시스템을 제공하여, 빠르고 일관된 디자인을 구현할 수 있습니다.  
 - CSS와 JavaScript의 강력한 통합으로 모바일 친화적인 UI를 손쉽게 만들 수 있습니다.
@@ -283,7 +283,7 @@ npm run start
 ---
 
 ### 🎨 **Flaticon**
-
+- https://github.com/freepik-company/flaticon-uicons
 - Flaticon은 수천 개의 고품질 아이콘 리소스를 제공하는 플랫폼입니다.  
 - 웹 또는 모바일 애플리케이션의 디자인에 필요한 다양한 아이콘을 다운로드하여 사용할 수 있습니다.  
 - React와 통합하여 커스터마이징 가능한 SVG 및 PNG 포맷 아이콘을 제공합니다.
