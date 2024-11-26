@@ -1,4 +1,4 @@
-package iise_capston.imgcloud.oauth;
+package imgcloud.oauth;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

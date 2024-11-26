@@ -1,8 +1,8 @@
-package iise_capston.imgcloud.controller;
+package imgcloud.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import iise_capston.imgcloud.domain.dto.IdDto;
-import iise_capston.imgcloud.service.DeleteFileService;
+import imgcloud.domain.dto.IdDto;
+import imgcloud.service.DeleteFileService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

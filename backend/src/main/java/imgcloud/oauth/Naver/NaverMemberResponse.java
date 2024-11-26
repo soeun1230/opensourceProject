@@ -1,11 +1,11 @@
-package iise_capston.imgcloud.oauth.Naver;
+package imgcloud.oauth.Naver;
 
 import com.fasterxml.jackson.databind.PropertyNamingStrategies;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
-import iise_capston.imgcloud.oauth.OauthId;
-import iise_capston.imgcloud.member.OauthMember;
+import imgcloud.oauth.OauthId;
+import imgcloud.member.OauthMember;
 
-import static iise_capston.imgcloud.oauth.OauthServerType.NAVER;
+import static imgcloud.oauth.OauthServerType.NAVER;
 
 
 @JsonNaming(value = PropertyNamingStrategies.SnakeCaseStrategy.class)

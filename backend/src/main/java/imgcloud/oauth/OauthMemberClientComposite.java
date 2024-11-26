@@ -1,6 +1,6 @@
-package iise_capston.imgcloud.oauth;
+package imgcloud.oauth;
 
-import iise_capston.imgcloud.member.OauthMember;
+import imgcloud.member.OauthMember;
 import org.springframework.stereotype.Component;
 
 import java.util.Map;

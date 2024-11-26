@@ -1,4 +1,4 @@
-package iise_capston.imgcloud.member;
+package imgcloud.member;
 
 import jakarta.persistence.*;
 import lombok.Data;

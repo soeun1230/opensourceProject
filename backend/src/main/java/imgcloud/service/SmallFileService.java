@@ -1,15 +1,15 @@
-package iise_capston.imgcloud.service;
+package imgcloud.service;
 
 import com.amazonaws.services.s3.AmazonS3Client;
 import com.amazonaws.services.s3.model.ObjectMetadata;
-import iise_capston.imgcloud.domain.dto.PeopleImageUploadDto;
-import iise_capston.imgcloud.domain.dto.PeopleMetadataDto;
-import iise_capston.imgcloud.domain.dto.ThingImageUploadDto;
-import iise_capston.imgcloud.domain.dto.ThingMetadataDto;
-import iise_capston.imgcloud.domain.repository.PeopleImageMemberRepository;
-import iise_capston.imgcloud.domain.repository.ThingImageMemberRepository;
-import iise_capston.imgcloud.member.PeopleImageMember;
-import iise_capston.imgcloud.member.ThingImageMember;
+import imgcloud.domain.dto.PeopleImageUploadDto;
+import imgcloud.domain.dto.PeopleMetadataDto;
+import imgcloud.domain.dto.ThingImageUploadDto;
+import imgcloud.domain.dto.ThingMetadataDto;
+import imgcloud.domain.repository.PeopleImageMemberRepository;
+import imgcloud.domain.repository.ThingImageMemberRepository;
+import imgcloud.member.PeopleImageMember;
+import imgcloud.member.ThingImageMember;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

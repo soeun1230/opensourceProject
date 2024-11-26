@@ -1,6 +1,6 @@
-package iise_capston.imgcloud.config;
+package imgcloud.config;
 
-import iise_capston.imgcloud.oauth.OauthServerTypeConverter;
+import imgcloud.oauth.OauthServerTypeConverter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.format.FormatterRegistry;

@@ -1,6 +1,5 @@
-package iise_capston.imgcloud;
+package imgcloud;
 
-import nu.pattern.OpenCV;
 import org.opencv.core.Core;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

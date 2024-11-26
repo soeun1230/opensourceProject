@@ -1,4 +1,4 @@
-package iise_capston.imgcloud.domain.dto;
+package imgcloud.domain.dto;
 
 
 import lombok.AllArgsConstructor;

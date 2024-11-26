@@ -1,6 +1,6 @@
-package iise_capston.imgcloud.oauth;
+package imgcloud.oauth;
 
-import iise_capston.imgcloud.member.OauthMember;
+import imgcloud.member.OauthMember;
 
 //AuthCodeRequestUrlProvider 와 같은 역할을 하는 인터페이스
 public interface OauthMemberClient {

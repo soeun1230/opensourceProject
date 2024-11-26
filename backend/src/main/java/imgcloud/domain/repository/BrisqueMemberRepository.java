@@ -1,8 +1,8 @@
-package iise_capston.imgcloud.domain.repository;
+package imgcloud.domain.repository;
 
-import iise_capston.imgcloud.member.BrisqueMember;
-import iise_capston.imgcloud.member.PeopleImageMember;
-import iise_capston.imgcloud.member.ThingImageMember;
+import imgcloud.member.BrisqueMember;
+import imgcloud.member.PeopleImageMember;
+import imgcloud.member.ThingImageMember;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

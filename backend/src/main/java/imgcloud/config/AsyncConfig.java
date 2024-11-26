@@ -1,4 +1,4 @@
-package iise_capston.imgcloud.config;
+package imgcloud.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.AsyncConfigurer;

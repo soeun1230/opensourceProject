@@ -1,4 +1,4 @@
-package iise_capston.imgcloud.oauth.Naver;
+package imgcloud.oauth.Naver;
 
 import static org.springframework.http.HttpHeaders.AUTHORIZATION;
 import org.springframework.util.MultiValueMap;

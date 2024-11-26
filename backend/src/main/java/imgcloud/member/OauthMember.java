@@ -1,6 +1,6 @@
-package iise_capston.imgcloud.member;
+package imgcloud.member;
 
-import iise_capston.imgcloud.oauth.OauthId;
+import imgcloud.oauth.OauthId;
 import jakarta.persistence.*;
 import lombok.*;
 

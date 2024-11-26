@@ -1,4 +1,4 @@
-package iise_capston.imgcloud.service;
+package imgcloud.service;
 
 
 import lombok.RequiredArgsConstructor;
@@ -12,8 +12,6 @@ import software.amazon.awssdk.services.s3.presigner.S3Presigner;
 import software.amazon.awssdk.services.s3.presigner.model.GetObjectPresignRequest;
 import software.amazon.awssdk.services.s3.presigner.model.PresignedGetObjectRequest;
 
-import java.net.URLEncoder;
-import java.nio.charset.StandardCharsets;
 import java.time.Duration;
 
 @Service

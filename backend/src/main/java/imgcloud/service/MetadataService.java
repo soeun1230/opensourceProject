@@ -1,11 +1,11 @@
-package iise_capston.imgcloud.service;
+package imgcloud.service;
 
-import iise_capston.imgcloud.domain.repository.MetadataMemberRepository;
-import iise_capston.imgcloud.domain.repository.PeopleImageMemberRepository;
-import iise_capston.imgcloud.domain.repository.ThingImageMemberRepository;
-import iise_capston.imgcloud.member.MetadataMember;
-import iise_capston.imgcloud.member.PeopleImageMember;
-import iise_capston.imgcloud.member.ThingImageMember;
+import imgcloud.domain.repository.MetadataMemberRepository;
+import imgcloud.domain.repository.PeopleImageMemberRepository;
+import imgcloud.domain.repository.ThingImageMemberRepository;
+import imgcloud.member.MetadataMember;
+import imgcloud.member.PeopleImageMember;
+import imgcloud.member.ThingImageMember;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

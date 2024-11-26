@@ -1,7 +1,7 @@
-package iise_capston.imgcloud.service;
+package imgcloud.service;
 
-import iise_capston.imgcloud.member.OauthMember;
-import iise_capston.imgcloud.oauth.*;
+import imgcloud.member.OauthMember;
+import imgcloud.oauth.*;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

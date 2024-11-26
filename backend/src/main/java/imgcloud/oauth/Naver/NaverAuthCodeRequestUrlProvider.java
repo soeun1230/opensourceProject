@@ -1,7 +1,7 @@
-package iise_capston.imgcloud.oauth.Naver;
+package imgcloud.oauth.Naver;
 
-import iise_capston.imgcloud.oauth.AuthCodeRequestUrlProvider;
-import iise_capston.imgcloud.oauth.OauthServerType;
+import imgcloud.oauth.AuthCodeRequestUrlProvider;
+import imgcloud.oauth.OauthServerType;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 import org.springframework.web.util.UriComponentsBuilder;

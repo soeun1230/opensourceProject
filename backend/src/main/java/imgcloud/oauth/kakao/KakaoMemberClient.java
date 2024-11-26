@@ -1,9 +1,9 @@
-package iise_capston.imgcloud.oauth.kakao;
+package imgcloud.oauth.kakao;
 
 
-import iise_capston.imgcloud.member.OauthMember;
-import iise_capston.imgcloud.oauth.OauthMemberClient;
-import iise_capston.imgcloud.oauth.OauthServerType;
+import imgcloud.member.OauthMember;
+import imgcloud.oauth.OauthMemberClient;
+import imgcloud.oauth.OauthServerType;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 import org.springframework.util.LinkedMultiValueMap;

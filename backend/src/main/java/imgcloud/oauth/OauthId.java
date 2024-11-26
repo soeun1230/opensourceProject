@@ -1,4 +1,4 @@
-package iise_capston.imgcloud.oauth;
+package imgcloud.oauth;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;

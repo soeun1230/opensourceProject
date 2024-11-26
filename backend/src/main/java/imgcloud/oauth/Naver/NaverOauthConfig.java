@@ -1,4 +1,4 @@
-package iise_capston.imgcloud.oauth.Naver;
+package imgcloud.oauth.Naver;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

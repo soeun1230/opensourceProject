@@ -1,4 +1,4 @@
-package iise_capston.imgcloud.config;
+package imgcloud.config;
 
 import com.amazonaws.auth.AWSStaticCredentialsProvider;
 import com.amazonaws.auth.BasicAWSCredentials;

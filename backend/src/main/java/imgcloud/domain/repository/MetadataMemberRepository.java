@@ -1,8 +1,8 @@
-package iise_capston.imgcloud.domain.repository;
+package imgcloud.domain.repository;
 
-import iise_capston.imgcloud.member.MetadataMember;
-import iise_capston.imgcloud.member.PeopleImageMember;
-import iise_capston.imgcloud.member.ThingImageMember;
+import imgcloud.member.MetadataMember;
+import imgcloud.member.PeopleImageMember;
+import imgcloud.member.ThingImageMember;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface MetadataMemberRepository extends JpaRepository<MetadataMember,Long> {

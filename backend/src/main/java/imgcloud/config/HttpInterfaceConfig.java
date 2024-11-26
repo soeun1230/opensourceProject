@@ -1,7 +1,7 @@
-package iise_capston.imgcloud.config;
+package imgcloud.config;
 
-import iise_capston.imgcloud.oauth.Naver.NaverApiClient;
-import iise_capston.imgcloud.oauth.kakao.KakaoApiClient;
+import imgcloud.oauth.Naver.NaverApiClient;
+import imgcloud.oauth.kakao.KakaoApiClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.service.invoker.HttpServiceProxyFactory;

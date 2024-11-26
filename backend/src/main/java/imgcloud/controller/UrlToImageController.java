@@ -1,18 +1,19 @@
-package iise_capston.imgcloud.controller;
+package imgcloud.controller;
 
-import iise_capston.imgcloud.domain.repository.PeopleImageMemberRepository;
-import iise_capston.imgcloud.domain.repository.ThingImageMemberRepository;
-import iise_capston.imgcloud.member.PeopleImageMember;
-import iise_capston.imgcloud.member.ThingImageMember;
-import iise_capston.imgcloud.service.GetDataResponseTransformer;
+import imgcloud.domain.repository.PeopleImageMemberRepository;
+import imgcloud.domain.repository.ThingImageMemberRepository;
+import imgcloud.member.PeopleImageMember;
+import imgcloud.member.ThingImageMember;
+import imgcloud.service.GetDataResponseTransformer;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.util.Base64;

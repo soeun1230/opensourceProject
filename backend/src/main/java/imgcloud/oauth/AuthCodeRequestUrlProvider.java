@@ -1,4 +1,4 @@
-package iise_capston.imgcloud.oauth;
+package imgcloud.oauth;
 
 //인터페이스
 //AuthCode를 발급할 URL 제공 -> 카카오, 네이버 어디?

@@ -1,13 +1,13 @@
-package iise_capston.imgcloud.oauth.kakao;
+package imgcloud.oauth.kakao;
 
 import com.fasterxml.jackson.databind.PropertyNamingStrategies;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
-import iise_capston.imgcloud.oauth.OauthId;
-import iise_capston.imgcloud.member.OauthMember;
+import imgcloud.member.OauthMember;
+import imgcloud.oauth.OauthId;
 
 import java.time.LocalDateTime;
 
-import static iise_capston.imgcloud.oauth.OauthServerType.KAKAO;
+import static imgcloud.oauth.OauthServerType.KAKAO;
 
 @JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)
 public record KakaoMemberResponse(

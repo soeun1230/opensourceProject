@@ -1,4 +1,4 @@
-package iise_capston.imgcloud.oauth;
+package imgcloud.oauth;
 
 import static java.util.Locale.ENGLISH;
 

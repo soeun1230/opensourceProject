@@ -1,16 +1,16 @@
-package iise_capston.imgcloud.controller;
+package imgcloud.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import iise_capston.imgcloud.domain.dto.ThingImageUploadDto;
-import iise_capston.imgcloud.domain.dto.ThingMetadataDto;
-import iise_capston.imgcloud.domain.dto.TitleDto;
-import iise_capston.imgcloud.domain.repository.PeopleImageMemberRepository;
-import iise_capston.imgcloud.member.OauthMember;
-import iise_capston.imgcloud.member.ThingImageMember;
-import iise_capston.imgcloud.service.BrisqueService;
-import iise_capston.imgcloud.service.MetadataService;
-import iise_capston.imgcloud.service.OauthService;
-import iise_capston.imgcloud.service.SmallFileService;
+import imgcloud.domain.dto.ThingImageUploadDto;
+import imgcloud.domain.dto.ThingMetadataDto;
+import imgcloud.domain.dto.TitleDto;
+import imgcloud.domain.repository.PeopleImageMemberRepository;
+import imgcloud.member.OauthMember;
+import imgcloud.member.ThingImageMember;
+import imgcloud.service.BrisqueService;
+import imgcloud.service.MetadataService;
+import imgcloud.service.OauthService;
+import imgcloud.service.SmallFileService;
 import lombok.RequiredArgsConstructor;
 import org.bytedeco.opencv.opencv_core.Scalar;
 import org.slf4j.Logger;

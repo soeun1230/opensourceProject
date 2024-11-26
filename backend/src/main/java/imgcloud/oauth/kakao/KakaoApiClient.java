@@ -1,4 +1,4 @@
-package iise_capston.imgcloud.oauth.kakao;
+package imgcloud.oauth.kakao;
 
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.bind.annotation.RequestHeader;

@@ -1,8 +1,8 @@
-package iise_capston.imgcloud.controller;
+package imgcloud.controller;
 
-import iise_capston.imgcloud.member.OauthMember;
-import iise_capston.imgcloud.oauth.OauthServerType;
-import iise_capston.imgcloud.service.OauthService;
+import imgcloud.member.OauthMember;
+import imgcloud.oauth.OauthServerType;
+import imgcloud.service.OauthService;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;

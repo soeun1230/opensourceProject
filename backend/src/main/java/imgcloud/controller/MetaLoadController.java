@@ -1,14 +1,16 @@
-package iise_capston.imgcloud.controller;
+package imgcloud.controller;
 
-import iise_capston.imgcloud.domain.dto.*;
-import iise_capston.imgcloud.domain.repository.PeopleImageMemberRepository;
-import iise_capston.imgcloud.domain.repository.PeopleMetadataMemberRepository;
-import iise_capston.imgcloud.domain.repository.ThingImageMemberRepository;
-import iise_capston.imgcloud.domain.repository.ThingMetadataMemberRepository;
-import iise_capston.imgcloud.member.MetadataMember;
-import iise_capston.imgcloud.member.PeopleImageMember;
-import iise_capston.imgcloud.member.ThingImageMember;
-import jakarta.persistence.criteria.CriteriaBuilder;
+import imgcloud.domain.dto.PeopleLoadDto;
+import imgcloud.domain.dto.PeopleMetadataDto;
+import imgcloud.domain.dto.ThingLoadDto;
+import imgcloud.domain.dto.ThingMetadataDto;
+import imgcloud.domain.repository.PeopleImageMemberRepository;
+import imgcloud.domain.repository.PeopleMetadataMemberRepository;
+import imgcloud.domain.repository.ThingImageMemberRepository;
+import imgcloud.domain.repository.ThingMetadataMemberRepository;
+import imgcloud.member.MetadataMember;
+import imgcloud.member.PeopleImageMember;
+import imgcloud.member.ThingImageMember;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;

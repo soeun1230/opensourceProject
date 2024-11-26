@@ -1,4 +1,4 @@
-package iise_capston.imgcloud.oauth.Naver;
+package imgcloud.oauth.Naver;
 
 import com.fasterxml.jackson.databind.PropertyNamingStrategies;
 import com.fasterxml.jackson.databind.annotation.JsonNaming;

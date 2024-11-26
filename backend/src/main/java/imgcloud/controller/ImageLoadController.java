@@ -1,15 +1,17 @@
-package iise_capston.imgcloud.controller;
+package imgcloud.controller;
 
-import iise_capston.imgcloud.domain.dto.PeopleImageUploadDto;
-import iise_capston.imgcloud.domain.dto.ThingImageUploadDto;
-import iise_capston.imgcloud.domain.repository.PeopleImageMemberRepository;
-import iise_capston.imgcloud.domain.repository.ThingImageMemberRepository;
-import iise_capston.imgcloud.member.BrisqueMember;
-import iise_capston.imgcloud.member.PeopleImageMember;
-import iise_capston.imgcloud.member.ThingImageMember;
-import iise_capston.imgcloud.service.BrisqueService;
+import imgcloud.domain.dto.PeopleImageUploadDto;
+import imgcloud.domain.dto.ThingImageUploadDto;
+import imgcloud.domain.repository.PeopleImageMemberRepository;
+import imgcloud.domain.repository.ThingImageMemberRepository;
+import imgcloud.member.BrisqueMember;
+import imgcloud.member.PeopleImageMember;
+import imgcloud.member.ThingImageMember;
+import imgcloud.service.BrisqueService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 import java.util.stream.Collectors;
