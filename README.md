@@ -128,7 +128,8 @@
   ```
 
 ### 📌 **백엔드 (Backend) 환경 설정**  
-- **Spring Boot** 사용  
+- **Spring Boot** 사용
+- build.gradle 실행
 - 아래의 **`application.properties`** 파일 설정 필요  ➡️ 위치: `backend > src > main > resources > application.properties`  
 - <details>
   <summary>💾 application.properties</summary>
