@@ -64,35 +64,20 @@
 
 ## 🛠️ **지원 기능**
 
-<details>
-  <summary>1️⃣ 이미지 품질 측정</summary>
-  <ul>
-    <li>전체 이미지에 대한 품질 분석</li>
-    <li>선택한 특정 영역에 대한 품질 분석</li>
-  </ul>
-</details>
+### 1️⃣ 이미지 품질 측정
+- 전체 이미지에 대한 품질 분석
+- 선택한 특정 영역에 대한 품질 분석
 
-<details>
-  <summary>2️⃣ 이미지 메타데이터 제공</summary>
-  <ul>
-    <li>ISO, White Balance, F-stop, GPS 등 메타데이터 제공</li>
-  </ul>
-</details>
+### 2️⃣ 이미지 메타데이터 제공
+- ISO, White Balance, F-stop, GPS 등 메타데이터 제공
 
-<details>
-  <summary>3️⃣ 이미지 편집 기능</summary>
-  <ul>
-    <li>이미지 압축 및 파일 포맷 변경</li>
-    <li>해상도 측정 및 노이즈 제거</li>
-  </ul>
-</details>
+### 3️⃣ 이미지 편집 기능
+- 이미지 압축 및 파일 포맷 변경
+- 해상도 측정 및 노이즈 제거
 
-<details>
-  <summary>4️⃣ 로컬로 이미지 다운로드</summary>
-  <ul>
-    <li>다운로드 시 압축하여 다운 가능</li>
-  </ul>
-</details>
+### 4️⃣ 로컬로 이미지 다운로드
+- 다운로드 시 압축하여 다운 가능
+
    
 ---
 
