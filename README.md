@@ -249,7 +249,7 @@ npm run start
 - OpenCV는 컴퓨터 비전과 이미지 처리 기능을 제공하는 오픈 소스 라이브러리입니다.
 - 이미지 품질 분석, 얼굴 인식, 객체 추적 등 다양한 기능을 지원하며, **BRISQUE 알고리즘**을 통해 이미지 품질 평가를 수행합니다.
 - Spring Boot와 OpenCV를 연동하여 강력한 이미지 프로세싱 기능을 구현합니다.
-- **be** > **src** > **controller** > **BrisqueController 에서 활용하고 있습니다!**
+- **backend** > **src** > **ImgCloud** > **controller** > **BrisqueController 에서 활용하고 있습니다!**
 
 ---
 
