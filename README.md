@@ -2,7 +2,7 @@
 ---
 ## 🌟 **웹사이트 소개**  
 이 웹사이트는 **BRISQUE 알고리즘**을 활용하여 이미지 품질을 분석하고, 다양한 이미지 편집 및 정보 제공 기능을 지원합니다.
-
+- 데모 영상 : https://github.com/soeun1230/opensourceProject/edit/main/데모영상.mkv
 ---
 
 ## 📄 **페이지 설명**
